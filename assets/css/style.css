@@ -3538,7 +3538,7 @@ section {
     [ ## Introduction ]
 --------------------------------------------------------------*/
 .banner-section {
-  background-image: url("../images/gallery/bgplaneimg.jpg");
+  background-image: url("../images/gallery/background2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3554,7 +3554,18 @@ section {
  
   
 }
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+  border-radius:10px;
+  transition: transform 0.4s ease; /* Smooth transition for the zoom effect */
+}
 
+.swiper-slide img:hover {
+  transform: scale(1.1); /* Zooms the image by 10% */
+}
 
 #tsparticles {
   position: absolute;
@@ -3608,7 +3619,7 @@ section {
 @media only screen and (max-width: 1199px) {
   .banner-section .banner-thumb {
     position: unset;
-    animation: none;
+    
   }
   .banner-section .banner-thumb img {
     animation: none;
@@ -3724,7 +3735,7 @@ section {
 .banner-section .banner-content .sub-title {
   font-weight: 600;
   font-style: italic;
-  font-size: 30px;
+  font-size: 22px;
   color: white;
   font-family: "Mulish", sans-serif;
   margin-bottom: 25px;
@@ -3734,7 +3745,7 @@ section {
     font-size: 18px;
   }
 }
-.banner-section .banner-content .sub-title span {
+.banner-section .banner-content .sub-title .subtitle1 {
   color: #dcbb87;
 }
 .banner-section .banner-content .title {
