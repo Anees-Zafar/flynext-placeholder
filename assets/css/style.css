@@ -2536,16 +2536,16 @@ section {
     [ ## Header ]
 */
 .header-section {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 999;
-  background-color: transparent;
+  background-color: #1F2E3C;
 }
 
 .header {
-  background-color: transparent;
+  background-color: #1F2E3C;
   width: 100%;
   z-index: 99;
   -webkit-transition: all ease 1s;
@@ -2554,11 +2554,11 @@ section {
 
 .header-bottom-area {
   position: relative;
-  padding: 15px 100px 0 100px;
+  padding: 15px 100px 13px 100px;
 }
 @media only screen and (max-width: 1317px) {
   .header-bottom-area {
-    padding: 15px 30px 0 30px !important;
+    padding: 15px 30px 13px 30px !important;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -3585,10 +3585,10 @@ section {
 }
 @media only screen and (max-width: 1317px) {
   .banner-section {
-    padding-top: 165px;
+    padding-top: 220px;
     padding-bottom: 90px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -3751,9 +3751,9 @@ section {
 .banner-section .banner-content .title {
   font-family:'Cinzel', sans-serif;
     margin-bottom: 25px;
-    
+    font-size: 33px;
   font-weight: 700;
-  color: white;
+  color: #dcbb87;
   
 }
 @media only screen and (max-width: 991px) {
