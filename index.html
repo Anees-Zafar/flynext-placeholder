@@ -61,6 +61,13 @@
             border-radius:10px;
 
         }
+        @media only screen and (max-width: 767px) {
+            .swiper-slide{
+                width: 250px;
+            /* Slide width */
+            height: 350px;
+            }
+          }
 
       
         .language-selector{
@@ -1426,6 +1433,10 @@
                 slideShadows: true,
             },
             loop: true,
+            autoplay: {
+                delay: 2000,  // 2000ms = 2 seconds
+                disableOnInteraction: false, // Allows autoplay to continue after user interactions
+            }
 
         });
     </script>

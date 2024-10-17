@@ -3593,6 +3593,7 @@ section {
 }
 @media only screen and (max-width: 991px) {
   .banner-section {
+    padding-top: 120px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -3616,6 +3617,7 @@ section {
   animation: ImgAnimate 3s infinite cubic-bezier(0.4, 0, 1, 1) 0.2s;
   width: 100%;
 }
+
 @media only screen and (max-width: 1199px) {
   .banner-section .banner-thumb {
     position: unset;
