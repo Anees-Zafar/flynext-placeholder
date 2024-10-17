@@ -1997,7 +1997,8 @@ option {
 .bg-overlay-base:after {
   content: "";
   position: absolute;
-  background-image: linear-gradient(-272deg, #19232d 15%, rgba(25, 25, 25, 0) 100%);
+  /* background-image: linear-gradient(-272deg, #19232d 15%, rgba(25, 25, 25, 0) 100%); */
+  background-color:#19232da1 ;
   width: 100%;
   height: 100%;
   left: 0;
@@ -2918,11 +2919,11 @@ section {
   }
 }
 
-@media only screen and (max-width: 1199px) {
+/* @media only screen and (max-width: 1199px) {
   .header-links-area {
     display: none;
   }
-}
+} */
 
 .header-links li {
   display: inline-block;
@@ -3158,7 +3159,7 @@ section {
     margin-left: 5px;
   }
 }
-@media only screen and (max-width: 1199px) {
+/* @media only screen and (max-width: 1199px) {
   .header-action {
     position: absolute;
     width: 210px;
@@ -3170,7 +3171,7 @@ section {
     z-index: 9;
     display: none;
   }
-}
+} */
 .header-action a {
   padding: 12px 30px;
   font-weight: 800;
@@ -5257,7 +5258,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #0b1b2ac9;
+  background-color: #0b1b2aa4;
 }
 .overview-tab-thumb .nav-tab-area {
   position: absolute;
