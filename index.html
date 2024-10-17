@@ -157,13 +157,13 @@
                                                 <li><a href="404.html">404 Page</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu_has_children navlan4"><a href="#0">Blog</a>
+                                       <!---- <li class="menu_has_children navlan4"><a href="#0">Blog</a>
                                             <ul class="sub-menu">
                                                 <li><a href="blog.html">Blog</a></li>
                                                 <li><a href="blog-classic.html">Blog Classic</a></li>
                                                 <li><a href="blog-details.html">Blog Details</a></li>
                                             </ul>
-                                        </li>
+                                        </li> ---->
                                         <li class="navlan5"><a href="faq.html">Faq</a></li>
                                         <li class="navlan6"><a href="contact.html">Contact Us</a></li>
                                     </ul>
@@ -195,6 +195,10 @@
                                                     <option value="fr">French</option>
                                                     <option value="ar">Arabic</option>
                                                     <option value="es">Spanish</option>
+                                                    <option value="tr">Turkish</option>
+                                                    <option value="sv">Swedish</option>
+                                                    <option value="it">Italian</option>
+
                                                 </select>
                                             </div>
                                           
@@ -1577,6 +1581,48 @@
         subtitle2: "Global",
         typedStrings: ["Transporte Aéreo", "Buques Carga", "Transporte Terrestre"],
         description: "Hemroc Trading (Pvt.) Ltd. ofrece excelencia en la importación y exportación en diversas industrias, incluyendo hospitalidad, productos frescos, maquinaria pesada e infraestructura. Garantizamos servicios de la más alta calidad adaptados a sus necesidades."
+    },
+    tr: {
+        home: "Ana Sayfa",
+        about: "Hakkımızda",
+        pages: "Sayfalar",
+        service: "Hizmet",
+        blog: "Blog",
+        faq: "SSS",
+        contact: "İletişim",
+        title: "Küresel İthalat ve İhracat Çözümleri",
+        subtitle1: "Küresel",
+        subtitle2: "Ticaret",
+        description: "Hemroc Trading (Pvt.) Ltd., konaklama, taze ürünler, ağır makineler ve altyapı dahil olmak üzere sektörlerde mükemmellik sunar. İhtiyaçlarınıza göre uyarlanmış en kaliteli hizmetleri garanti ediyoruz.",
+        typedStrings: ["Hava Kargo ile", "Gemi ile", "Kara Taşımacılığı ile"]
+    },
+    sv: {
+        home: "Hem",
+        about: "Om oss",
+        pages: "Sidor",
+        service: "Tjänst",
+        blog: "Blogg",
+        faq: "Vanliga frågor",
+        contact: "Kontakta oss",
+        title: "Globala Import- Och Exportlösningar",
+        subtitle1: "Global",
+        subtitle2: "Handel",
+        description: "Hemroc Trading (Pvt.) Ltd. levererar excellens inom import och export över industrier, inklusive gästfrihet, färska produkter, tunga maskiner och infrastruktur. Vi säkerställer toppkvalitetstjänster anpassade efter dina behov.",
+        typedStrings: ["Via Flygfrakt", "Via Fraktskepp", "Via Landtransporter"]
+    },
+    it: {
+        home: "Home",
+        about: "Chi siamo",
+        pages: "Pagine",
+        service: "Servizi",
+        blog: "Blog",
+        faq: "FAQ",
+        contact: "Contatti",
+        title: "Soluzioni Commerciali Globali",
+        subtitle1: "Commercio",
+        subtitle2: "Globale",
+        description: "Hemroc Trading (Pvt.) Ltd. offre eccellenza nell'importazione ed esportazione in vari settori, tra cui ospitalità, prodotti freschi, macchinari pesanti e infrastrutture. Garantiamo servizi di alta qualità adattati alle vostre esigenze.",
+        typedStrings: ["Via Trasporto Aereo", "Via Navi da Carico", "Via Trasporto Terrestre"]
     }
 
 };
@@ -1588,7 +1634,7 @@
         document.querySelector(".navbar-nav .menu_has_children > a").textContent = translations[selectedLanguage].home;
         document.querySelector("header .header-menu-content .navbar-nav .navlan2 > a").textContent = translations[selectedLanguage].about;
         document.querySelector("header .header-menu-content .navbar-nav .navlan3 > a").textContent = translations[selectedLanguage].pages;
-        document.querySelector("header .header-menu-content .navbar-nav .navlan4 > a").textContent = translations[selectedLanguage].blog;
+      //  document.querySelector("header .header-menu-content .navbar-nav .navlan4 > a").textContent = translations[selectedLanguage].blog;
         document.querySelector("header .header-menu-content .navbar-nav .navlan5 > a").textContent = translations[selectedLanguage].faq;
         document.querySelector("header .header-menu-content .navbar-nav .navlan6 > a").textContent = translations[selectedLanguage].contact;
     
