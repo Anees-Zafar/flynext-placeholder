@@ -5128,7 +5128,7 @@ section {
   text-align: left;
   padding: 28px 0;
   position: relative;
-  transition: transform 0.3s ease-in-out;
+  
 }
 .overview-tab .nav-tabs .nav-link:hover{
   transform: scale(1.1);
@@ -5185,7 +5185,13 @@ section {
   z-index: 2;
   border-radius: 10px;
   overflow: hidden;
+  transition: transform 0.9s ease-in-out;
 }
+.overview-thumb:hover{
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
 .overview-thumb::before {
   position: absolute;
   content: '';
@@ -5193,8 +5199,15 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
+  transition: background-color 0.9s ease-in-out;
   background-image: linear-gradient(360deg, rgba(25, 35, 45, 0.82) 3%, transparent 100%);
 }
+.overview-thumb:hover::before{
+  background-image: linear-gradient(360deg, rgba(25, 35, 45, 0.918) 3%, transparent 100%);
+
+}
+
+
 @media only screen and (max-width: 575px) {
   .overview-thumb::before {
     background-image: linear-gradient(360deg, rgba(25, 35, 45, 0.82) 100%, transparent 100%);
@@ -5206,7 +5219,12 @@ section {
   left: 50%;
   transform: translateX(-50%);
   width: 70%;
+  transition: bottom 0.9s ease-in-out;
 }
+.overview-thumb:hover .overview-thumb-content{
+  bottom: 60px;
+}
+
 @media only screen and (max-width: 991px) {
   .overview-thumb .overview-thumb-content {
     width: 80%;
@@ -5221,6 +5239,10 @@ section {
 .overview-thumb .overview-thumb-content .title {
   color: white;
   margin-bottom: 15px;
+  transition: font-size 0.3s ease-in-out;
+}
+.overview-thumb:hover .overview-thumb-content .title {
+  font-size: 1.6rem;
 }
 .overview-thumb .overview-thumb-content .title a {
   transition: all 0.5s;
@@ -5243,6 +5265,9 @@ section {
   border-radius: 10px;
   overflow: hidden;
   margin-left: 20px;
+}
+.tab-content{
+  overflow: hidden;
 }
 @media only screen and (max-width: 991px) {
   .overview-tab-thumb {
