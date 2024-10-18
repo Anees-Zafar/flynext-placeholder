@@ -5128,6 +5128,7 @@ section {
   text-align: left;
   padding: 28px 0;
   position: relative;
+  font-family: "Arial", sans-serif;
   
 }
 .overview-tab .nav-tabs .nav-link:hover{
@@ -5238,8 +5239,10 @@ section {
   }
 }
 .overview-thumb .overview-thumb-content .title {
-  color: white;
+  color: #dcbb87;
   margin-bottom: 15px;
+  font-family: "Arial", sans-serif;
+
   transition: font-size 0.3s ease-in-out;
 }
 .overview-thumb:hover .overview-thumb-content .title {
@@ -5319,9 +5322,9 @@ section {
   }
 }
 .nav-tab-header .sub-title {
-  color: white;
+  color: #dcbc87;
   margin-bottom: 15px;
-  font-family: "Mulish", sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 20px;
   font-weight: 700;
   margin-top: -10px;
@@ -5334,7 +5337,7 @@ section {
   position: absolute;
   left: 0;
   bottom:10;
-  background-color: #dcbc87d8; /* Color of the line */
+  background-color: #ffffffc4; /* Color of the line */
   margin-top: 24px;
   margin-left: 40px;
 }
@@ -5353,6 +5356,7 @@ section {
 }
 .nav-tab-header .title {
   color: white;
+  font-family: "Arial", sans-serif;
 }
 @media only screen and (max-width: 1650px) {
   .nav-tab-header .title {
