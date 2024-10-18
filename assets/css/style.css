@@ -5421,9 +5421,10 @@ section {
   color: #dcbb87;
 }
 .about-content .title {
-  color: white;
+  color: #dcbb87;
   margin-bottom: 20px;
   font-weight: 700;
+  font-family: "Arial", sans-serif;
 }
 .about-content p {
   color: white;
@@ -5448,6 +5449,32 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 2;
+}
+@keyframes hanging {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.about-book-area:hover {
+  animation: hanging 5.9s ease-in-out infinite;
+  
+  transform-origin: top center; /* Makes the element swing from the top */
+}
+.about-book-area {
+  /* animation: impulse 0.6s ease-in-out; */
+  animation: impulse 2s ease-in-out infinite; /* Applying the impulse effect on hover */
+}
+
+@keyframes impulse {
+  0%, 100% {
+    transform: scale(1); /* Normal state */
+  }
+  50% {
+    transform: scale(1.05); /* Slight zoom at mid-point */
+  }
 }
 @media only screen and (max-width: 1399px) {
   .about-book-area {
