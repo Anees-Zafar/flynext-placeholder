@@ -5128,7 +5128,11 @@ section {
   text-align: left;
   padding: 28px 0;
   position: relative;
+  transition: transform 0.3s ease-in-out;
 }
+.overview-tab .nav-tabs .nav-link:hover{
+  transform: scale(1.1);
+} 
 .overview-tab .nav-tabs .nav-link span {
   font-family: "Mulish", sans-serif;
   margin-right: 5px;
