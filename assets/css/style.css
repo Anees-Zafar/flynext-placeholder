@@ -5268,6 +5268,7 @@ section {
 }
 .tab-content{
   overflow: hidden;
+  border-radius: 15px;
 }
 @media only screen and (max-width: 991px) {
   .overview-tab-thumb {
