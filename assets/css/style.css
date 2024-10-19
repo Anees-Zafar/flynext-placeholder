@@ -6073,60 +6073,54 @@ section {
   margin: 5px;
   overflow: hidden;
   border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  background-color: #dcbb87;
 
 }
-/* .feature-item::before {
-  position: absolute;
-  content: '';
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: background-color 0.9s ease-in-out;
-  background-image: linear-gradient(360deg, rgba(25, 35, 45, 0.411) 2%, transparent 100%);
-} */
-.feature-item:hover{
-  border-radius: 10px;
-}
+
+
 
 .feature-item img{
   border-radius: 10px;
   width: 100%;
-  transition: transform 0.5s ease;
+  transition: all 0.5s ease-in-out;
 }
 
 /* Add hover effects */
-.feature-item:hover img {
-  transform: scale(1.1); /* Image zoom effect on hover */
+.feature-item:hover img{
+  transform: scale(1.1);
+  opacity: 0;
+   /* Image zoom effect on hover */
+  
 }
 /* Product name overlay */
 .feature-item .title {
   position: absolute;
   bottom: 0;
   left: 10;
-  width: 90%;
+  width: 100%;
   text-align: center;
-  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
   color: #fff;
   padding: 15px 10px;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 600;
   transition: background 0.3s ease;
   text-transform: uppercase;
   transform: translateY(-5px);
   border-top-right-radius: 15px;  /* Top-right corner */
   border-bottom-right-radius: 15px;
-
+  opacity: 0;
 }
 
 /* Hover effect on product name background */
 .feature-item:hover .title {
-  background: rgba(0, 0, 0, 0.7); /* Darken background on hover */
+  opacity: 1; /* Darken background on hover */
 }
 
 /* Add subtle shadow and slight movement */
 .feature-item:hover {
   transform: translateY(-5px);
+  background-color: #dcbb87;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
