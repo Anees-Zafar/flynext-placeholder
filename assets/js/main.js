@@ -14,7 +14,7 @@
 AOS.init();
 
 
-$('.video-icon').lightcase();
+// $('.video-icon').lightcase();
 
 $('.package-video > a').lightcase();
 
