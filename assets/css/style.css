@@ -6940,15 +6940,15 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   padding-left: 10px;
   padding-bottom: 20px;
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width:500px){
   .package-content {
   padding-bottom: 40px;
   }
   .package-section .section-header .sub-title{
     font-size: 15px;
   }
-  .package-section .package-content{
-    height: 150px;
+  .package-section{
+    height: 100%;
   }
 }
 .package-content .package-content-header .title {
