@@ -1191,7 +1191,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #19232d;
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 h1 {
@@ -3555,12 +3555,14 @@ section {
  
   
 }
+.bannerslideimg{
+  border-radius:10px;
+}
 .swiper-slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   user-select: none;
-  border-radius:10px;
   transition: transform 0.4s ease; /* Smooth transition for the zoom effect */
 }
 
@@ -6712,6 +6714,14 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   border-radius: 10px;
   overflow: hidden;
 }
+.book-form-area .section-header .sub-title{
+  font-size: 25px;
+}
+@media only screen and (max-width: 500px){
+  .book-form-area .section-header .sub-title{
+    font-size: 15px;
+  }
+}
 @media only screen and (max-width: 1199px) {
   .book-form-area {
     padding: 40px 30px;
@@ -6820,6 +6830,9 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   position: relative;
   overflow: hidden;
 }
+.package-section .section-header .sub-title{
+  font-size: 25px;
+}
 .package-section .package-element-one {
   position: absolute;
   bottom: 0;
@@ -6877,8 +6890,9 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 .package-item {
   background-color: white;
   box-shadow: 0 10px 10px rgba(50, 73, 179, 0.08);
-  border-radius: 10px;
-  padding: 12px;
+  border-radius:10px;
+
+  padding: 0px;
 }
 .package-item:hover .package-thumb img {
   transform: scale(1.2);
@@ -6887,11 +6901,11 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 .package-thumb {
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
+ 
 }
 .package-thumb img {
   width: 100%;
-  border-radius: 10px;
+  
   overflow: hidden;
   transition: all 0.5s;
 }
@@ -6923,6 +6937,16 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 
 .package-content {
   padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 500px){
+  .package-content {
+  padding-bottom: 40px;
+  }
+  .package-section .section-header .sub-title{
+    font-size: 15px;
+  }
 }
 .package-content .package-content-header .title {
   font-weight: 700;
@@ -6975,7 +6999,7 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 
 .package--style .package-thumb {
   max-height: 100%;
-  border-radius: 8px 8px 0 0;
+  
 }
 .package--style .package-content {
   position: unset;
@@ -6984,6 +7008,7 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   border-radius: 0 0 8px 8px;
   min-width: auto;
 }
+
 
 .package-details .package-item {
   padding: 0;
