@@ -6947,6 +6947,9 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   .package-section .section-header .sub-title{
     font-size: 15px;
   }
+  .package-section .package-content{
+    height: 150px;
+  }
 }
 .package-content .package-content-header .title {
   font-weight: 700;
