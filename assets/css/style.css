@@ -6878,7 +6878,7 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   background-color: white;
   box-shadow: 0 10px 10px rgba(50, 73, 179, 0.08);
   border-radius: 10px;
-  padding: 25px;
+  padding: 12px;
 }
 .package-item:hover .package-thumb img {
   transform: scale(1.2);
@@ -6894,6 +6894,19 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   border-radius: 10px;
   overflow: hidden;
   transition: all 0.5s;
+}
+.package-thumb .pac-hover-img{
+  position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.package-thumb:hover .pac-hover-img {
+  opacity: 1;  /* Show the hover image on hover */
+}
+
+.package-thumb:hover .pac-default-img {
+  opacity: 0;  /* Hide the default image on hover */
 }
 .package-thumb .package-prize {
   position: absolute;
