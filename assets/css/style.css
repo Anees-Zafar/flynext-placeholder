@@ -7642,6 +7642,12 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   transition: all 0.5s;
   position: relative;
 }
+@media only screen and (max-width: 420px) {
+  .brand-item{
+    width: 100px;
+  height: 100px;
+  }
+}
 .brand-item:hover {
   filter: invert(0) sepia(1) hue-rotate(4deg);
 }
