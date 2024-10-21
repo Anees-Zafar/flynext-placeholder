@@ -7641,12 +7641,16 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   cursor: pointer;
   transition: all 0.5s;
   position: relative;
+  padding-top: 15px;
 }
 @media only screen and (max-width: 420px) {
   .brand-item{
     width: 100px;
   height: 100px;
   }
+}
+.brand-slider .section-title{
+  color: #ca9e57;
 }
 .brand-item:hover {
   filter: invert(0) sepia(1) hue-rotate(4deg);
@@ -7657,6 +7661,15 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 
 .dark .brand-section {
   background-color: transparent;
+}
+
+
+
+
+.lotifileani{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*-------------------------------------------------
