@@ -529,3 +529,56 @@ $('.ratings-form-text').on('click', function(){
   
 
 })(jQuery);
+
+
+
+
+
+// js particals 
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        tsParticles.load("tsparticles", {
+            particles: {
+                number: {
+                    value: 50,
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                },
+                color: {
+                    value: "#ffffff"
+                },
+                shape: {
+                    type: "image",
+                    image: {
+                        src: "assets/images/gallery/planemoving.png",  // Use the icon image after rendering
+                        width: 100,
+                        height: 100
+                    }
+                },
+                opacity: {
+                    value: 0.7
+                },
+                size: {
+                    value: 9
+                },
+                move: {
+                    enable: true,
+                    speed: 2, // Increase the speed for faster movement
+                    direction: "right", // Set the direction to right (you can also use 'left', 'top', 'bottom')
+                    out_mode: "out" // Particles disappear and re-enter when they move out of the canvas
+                }
+            },
+            interactivity: {
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: "repulse"
+                    }
+                }
+            },
+            detectRetina: true
+        });
+    });
