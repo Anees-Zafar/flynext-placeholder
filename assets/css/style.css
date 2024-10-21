@@ -5253,6 +5253,7 @@ section {
     background-image: linear-gradient(360deg, rgba(25, 35, 45, 0.82) 100%, transparent 100%);
   }
 
+
 }
 .overview-thumb .overview-thumb-content {
   position: absolute;
@@ -5280,6 +5281,9 @@ section {
   .overview-thumb{
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  .overview-thumb .overview-thumb-content p{
+    font-size: 12px;
   }
 }
 .overview-thumb .overview-thumb-content .title {
