@@ -416,7 +416,7 @@ var swiper = new Swiper('.brand-slider', {
       slidesPerView: 2,
     },
     420: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
   }
 });

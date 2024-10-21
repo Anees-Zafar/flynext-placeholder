@@ -3558,7 +3558,16 @@ section {
 .bannerslideimg{
   border-radius:10px;
 }
-.swiper-slide img {
+
+
+@media only screen and (max-width: 767px) {
+  .bannerslideimg{
+      width: 250px;
+      /* Slide width */
+      height: 350px;
+  }
+}
+.bannerslideimg img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -3566,7 +3575,7 @@ section {
   transition: transform 0.4s ease; /* Smooth transition for the zoom effect */
 }
 
-.swiper-slide img:hover {
+.bannerslideimg img:hover {
   transform: scale(1.1); /* Zooms the image by 10% */
 }
 
