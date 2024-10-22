@@ -5464,6 +5464,9 @@ section {
   right: 0;
   animation: scroll-down 2s cubic-bezier(0.4, 0, 1, 1) infinite;
 }
+.call:hover{
+cursor: pointer !important;
+}
 @media only screen and (max-width: 1199px) {
   .about-section .about-element {
     display: none;
