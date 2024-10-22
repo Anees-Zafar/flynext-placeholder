@@ -4382,6 +4382,15 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 0;
+  opacity: 0.2;
+  width: 100%;
+}
+@media only screen and (max-width: 500px) {
+  #globalfooter{
+    opacity: 0;
+  }
 }
 
 .footer-list li {
@@ -6967,7 +6976,8 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 }
 .package-thumb img {
   width: 100%;
-  
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   overflow: hidden;
   transition: all 0.5s;
 }
@@ -6976,12 +6986,18 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
     top: 0;
     left: 0;
     opacity: 0;
+    border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .package-thumb:hover .pac-hover-img {
-  opacity: 1;  /* Show the hover image on hover */
+  opacity: 1;  
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;/* Show the hover image on hover */
 }
 
 .package-thumb:hover .pac-default-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   opacity: 0;  /* Hide the default image on hover */
 }
 .package-thumb .package-prize {
