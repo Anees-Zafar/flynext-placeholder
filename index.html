@@ -72,6 +72,9 @@
             border-radius: 10px;
 
         }
+        .bannerslideimg img{
+            border-radius: 10px;
+        }
 
         @media only screen and (max-width: 767px) {
             .bannerslideimg {
@@ -342,57 +345,51 @@
         <div class="call-widget-wrapper">
             <button type="button" class="call-widget-btn"><span class="num"><i class="icon-call-icon"></i> (+92) 300-5292928</span> <span class="arrow"></span></button>
             <div class="call-widget-form-area">
-                <form class="book-form">
+                <form class="book-form" method="POST" id="form2">
                     <div class="row justify-content-center mb-20-none">
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
                             <div class="book-select">
                                 <label>From</label>
                                 <div class="book-form-icon">
-                                    <i class="icon-from-airplane"></i>
+                                    <i class="fa fa-user"></i>
                                 </div>
-                                <select class="book-select form--control">
-                                    <option value="dhaka" selected>Dhaka</option>
-                                    <option value="london">London</option>
-                                </select>
+                                <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                                <input type="checkbox" name="botcheck" id="" style="display: none;">
+                                <input type="hidden" name="access_key" value="6524e227-f1f6-4a83-b01a-116c5cfe8718">
+                                <input class="book-select form--control" type="text" name="Name" id="">
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
                             <div class="book-select">
-                                <label>To</label>
+                                <label>Email</label>
                                 <div class="book-form-icon">
-                                    <i class="icon-to-airplane"></i>
+                                    <i class="fa fa-envelope"></i>
                                 </div>
-                                <select class="book-select form--control">
-                                    <option value="london" selected>London</option>
-                                    <option value="dhaka">Dhaka</option>
-                                </select>
+                                <input class="book-select form--control" type="email" name="Email" id="">
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
                             <div class="book-select">
-                                <label>Date</label>
+                                <label>Phone</label>
                                 <div class="book-form-icon">
-                                    <i class="icon-schedule-icon"></i>
+                                    <i class="fa fa-phone"></i>
                                 </div>
-                                <select class="book-select form--control">
-                                    <option value="25/12/2021" selected>25/12/2021</option>
-                                    <option value="30/12/2021">30/12/2021</option>
-                                </select>
+                                <input class="book-select form--control" type="number" name="Phone" id="">
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 form-group">
-                            <label>Passenger</label>
-                            <div class="book-quantity">
-                                <div class="book-plus-minus">
-                                    <div class="dec qtybutton">-</div>
-                                    <input class="book-plus-minus-box qty" type="text" name="qty" value="1" readonly>
-                                    <div class="inc qtybutton">+</div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
+                            <div class="book-select">
+                                <label>Message</label>
+                                <div class="book-form-icon">
+                                    <i class="fa fa-message"></i>
                                 </div>
+                                <input class="book-select form--control" type="textarea" name="Message" id="">
                             </div>
                         </div>
                         <div class="col-xl-12 form-group">
-                            <button type="submit" class="btn--base w-100 mt-10"><i class="icon-btn-icon"></i> Book
-                                Now</button>
+                            <div id="formresult2"></div>
+                            <button type="submit" class="btn--base ml-auto mr-auto mt-30" id="formsubmitbtn2"><i
+                                    class="icon-btn-icon"></i>Send Message</button>
                         </div>
                     </div>
                 </form>
@@ -1615,7 +1612,7 @@
                             </div>
                         </div>
                           
-                        <div class="col-xl-3 col-lg-2 col-md-6 mb-30">
+                        <div class="col-xl-2 col-lg-2 col-md-6 mb-30">
                             <div class="footer-widget">
                                 <h4 class="title">About us</h4>
                                 <ul class="footer-list">
@@ -1627,11 +1624,11 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="col-xl-5 col-lg-4 col-md-6 mb-30">
                             <div class="footer-widget">
                                 <lottie-player
-                                    src="https://lottie.host/ff7d2ae3-8e7b-40ff-b0e1-2b3da9582fe5/s1BuAefsdd.json"
-                                    speed="1" style="width: 300px; height: 300px" loop autoplay direction="1"
+                                    src="https://lottie.host/586cbd8b-f87a-40ed-8d28-50b4530305dd/wuWvzMz4nK.json"
+                                    speed="1" style="width: 350px; height: 350px" loop autoplay direction="1"
                                     mode="normal"></lottie-player>
                             </div>
                         </div>

@@ -1597,6 +1597,10 @@ input[type=number] {
 #formresult{
   color: white;
 }
+#formresult2{
+  color: white;
+  text-align: center;
+}
 
 select {
   outline: none;
