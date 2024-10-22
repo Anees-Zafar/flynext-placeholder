@@ -2621,6 +2621,7 @@ section {
     padding: 0;
   }
 
+
   .menu_has_children .sub-menu {
     display: none !important;
   }
@@ -2643,6 +2644,9 @@ section {
   position: relative;
   padding-right: 40px;
 }
+.navbar-collapse .main-menu li a:hover {
+ color: #dcbb87 !important;
+}
 @media only screen and (max-width: 1199px) {
   .navbar-collapse .main-menu li {
     padding-right: 25px;
@@ -2660,12 +2664,8 @@ section {
   visibility: visible;
   top: 120%;
 }
-.navbar-collapse .main-menu li.menu_has_children:hover a {
-  color: white;
-}
-.navbar-collapse .main-menu li.menu_has_children a:hover {
-  color: white;
-}
+
+
 .navbar-collapse .main-menu li:hover .toggle-bar .element {
   background-color: white !important;
 }
@@ -4384,8 +4384,9 @@ section {
   align-items: center;
   position: absolute;
   top: 0;
-  opacity: 0.2;
+  opacity: 0.4;
   width: 100%;
+  z-index: -1;
 }
 @media only screen and (max-width: 500px) {
   #globalfooter{
