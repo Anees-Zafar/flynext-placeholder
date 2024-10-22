@@ -5466,6 +5466,7 @@ section {
 }
 .call:hover{
 cursor: pointer !important;
+color: #dcbb87 !important;
 }
 @media only screen and (max-width: 1199px) {
   .about-section .about-element {
