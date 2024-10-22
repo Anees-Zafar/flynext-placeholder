@@ -4399,7 +4399,9 @@ section {
 .footer-bottom-area {
   border: 1px solid #dcbb87;
   border-radius: 20px;
-  background-color: #19232d;
+  background-color: #19232d70;
+  /* background-blend-mode: darken;
+  background-image: url(../images/gallery/footerbgmap.jpg); */
   position: relative;
   z-index: 9;
   padding: 60px;
