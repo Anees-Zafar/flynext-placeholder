@@ -863,7 +863,7 @@
                                 <span class="sub-title text-white"><span>Hemroc</span> Connect</span>
                                 <h2 class="section-title">Get in Touch with Hemroc: Let's Connect</h2>
                             </div>
-                            <form class="book-form">
+                            <form class="book-form" method="POST" id="form">
                                 <div class="row justify-content-center mb-20-none">
                                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 form-group">
                                         <div class="book-select">
@@ -871,6 +871,9 @@
                                             <div class="book-form-icon">
                                                 <i class="fa fa-user"></i>
                                             </div>
+                                            <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                                            <input type="checkbox" name="botcheck" id="" style="display: none;">
+                                            <input type="hidden" name="access_key" value="cf4cc582-b56b-4a4c-8788-f4af1338a2fc">
                                             <input class="book-select form--control" type="text" name="Name" id="">
                                         </div>
                                     </div>
@@ -898,11 +901,12 @@
                                             <div class="book-form-icon">
                                                 <i class="fa fa-message"></i>
                                             </div>
-                                            <input class="book-select form--control" type="textarea" name="Phone" id="">
+                                            <input class="book-select form--control" type="textarea" name="Message" id="">
                                         </div>
                                     </div>
                                     <div class="col-xl-12 form-group">
-                                        <button type="submit" class="btn--base ml-auto mr-auto mt-30"><i
+                                        <div id="formresult"></div>
+                                        <button type="submit" class="btn--base ml-auto mr-auto mt-30" id="formsubmitbtn"><i
                                                 class="icon-btn-icon"></i>Send Message</button>
                                     </div>
                                 </div>
