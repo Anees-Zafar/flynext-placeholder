@@ -4377,6 +4377,12 @@ section {
   font-size: 18px;
   color: #dcbb87
 }
+#globalfooter{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .footer-list li {
   color: white;
