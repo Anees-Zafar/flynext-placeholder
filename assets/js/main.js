@@ -1,3 +1,19 @@
+
+
+function toggleMenu() {
+  const menu = document.querySelector(".nav-menu-container2");
+  menu.classList.toggle("open"); // Toggle the 'open' class
+}
+
+
+
+
+
+
+
+
+
+
 (function ($) {
   "user strict";
 
@@ -1828,16 +1844,45 @@ const translations = {
 
 };
 
-function changeLanguage() {
-  const selectedLanguage = document.getElementById("language").value;
+function changeLanguage1(){
+  const value = document.getElementById("language").value;
+  changeLanguage(value)
+}
+function changeLanguage2(){
+  const value = document.getElementById("language2").value;
+  changeLanguage(value)
+}
 
-  // Update header
-  document.querySelector(".navbar-nav .menu_has_children > a").textContent = translations[selectedLanguage].home;
-  document.querySelector("header .header-menu-content .navbar-nav .navlan2 > a").textContent = translations[selectedLanguage].about;
-  document.querySelector("header .header-menu-content .navbar-nav .navlan3 > a").textContent = translations[selectedLanguage].pages;
-  //  document.querySelector("header .header-menu-content .navbar-nav .navlan4 > a").textContent = translations[selectedLanguage].blog;
-  document.querySelector("header .header-menu-content .navbar-nav .navlan5 > a").textContent = translations[selectedLanguage].faq;
-  document.querySelector("header .header-menu-content .navbar-nav .navlan6 > a").textContent = translations[selectedLanguage].contact;
+
+function changeLanguage(value) {
+  const selectedLanguage = value;
+
+      // Applying translations to elements with class 'lannav1'
+    let navItems1 = document.querySelectorAll(".lannav1");
+    navItems1.forEach(item => {
+      item.textContent = translations[selectedLanguage].home;
+    });
+
+    // Similarly for other classes
+    let navItems2 = document.querySelectorAll(".lannav2");
+    navItems2.forEach(item => {
+      item.textContent = translations[selectedLanguage].about;
+    });
+
+    let navItems3 = document.querySelectorAll(".lannav3");
+    navItems3.forEach(item => {
+      item.textContent = translations[selectedLanguage].pages;
+    });
+
+    let navItems4 = document.querySelectorAll(".lannav4");
+    navItems4.forEach(item => {
+      item.textContent = translations[selectedLanguage].faq;
+    });
+
+    let navItems5 = document.querySelectorAll(".lannav5");
+    navItems5.forEach(item => {
+      item.textContent = translations[selectedLanguage].contact;
+    });
 
   // Update banner
   document.querySelector(".banner-content .subtitle1").textContent = translations[selectedLanguage].subtitle1;
@@ -1971,6 +2016,11 @@ function initTypedStrings(strings) {
 }
 window.onload = function () {
   const selectedLanguage = document.getElementById("language").value || 'en'; // Default to English if no language is selected
-  changeLanguage(); // Call changeLanguage to set up the initial translation and Typed.js
+  changeLanguage(selectedLanguage); // Call changeLanguage to set up the initial translation and Typed.js
+};
+
+window.onload = function () {
+  const selectedLanguage = document.getElementById("language2").value || 'en'; // Default to English if no language is selected
+  changeLanguage(selectedLanguage); // Call changeLanguage to set up the initial translation and Typed.js
 };
 

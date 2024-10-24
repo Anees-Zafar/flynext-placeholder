@@ -3397,7 +3397,7 @@ section {
   }
 }
 
-.nav-menu-container {
+/* .nav-menu-container {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -3409,8 +3409,8 @@ section {
   visibility: hidden;
   z-index: 99999;
   overflow: hidden;
-}
-@media only screen and (max-width: 1199px) {
+} */
+/* @media only screen and (max-width: 1199px) {
   .nav-menu-container {
     overflow-y: auto;
   }
@@ -3419,7 +3419,7 @@ section {
 .page-wrapper.show .nav-menu-container {
   transform: translateX(0);
   visibility: visible;
-}
+} */
 .page-wrapper.show .menu-element-two {
   transform: translateX(0px) scale(1);
 }
@@ -3569,7 +3569,68 @@ section {
 
 
 
+.nav-menu-container2 {
+  position: fixed;
+  top: 15; /* Align to the top */
+  left: -100%; /* Initially hidden */
+  width: 250px; /* Width of the mobile menu */
+  height: 100%; /* Full height */
+  background-color: #19232d; /* Dark background color */
+  transition: left 0.3s ease; /* Smooth transition */
+  z-index: 9999; /* Above other elements */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+  padding: 20px; /* Padding inside the sidebar */
+  overflow-y: auto; /* Scroll if content overflows */
+}
 
+.nav-menu-container2.open {
+  left: 0; /* Slide in */
+}
+
+.nav-menu-close3 {
+  font-size: 24px; /* Size for close button */
+  color: white; /* Color for close button */
+  position: absolute; /* Position close button */
+  top: 20px; /* Distance from top */
+  right: 20px; /* Distance from right */
+  background: none; /* No background */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor style */
+}
+
+.nav-menu-container2 ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-menu-container2 li {
+  margin: 10px 0; /* Space between menu items */
+}
+
+.nav-menu-container2 a {
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Font size for links */
+  padding: 10px; /* Padding for clickable area */
+  display: block; /* Make entire area clickable */
+  transition: background-color 0.3s; /* Transition for hover effect */
+  
+}
+
+.nav-menu-container2 a:hover {
+  color: #dcbb87; /* Darker background on hover */
+   /* Rounded corners on hover */
+}
+
+@media (min-width: 992px) {
+  .nav-menu-container2 {
+      display: none; /* Hide on larger screens */
+  }
+}
+.nav-menu-container2 .navlanline{
+  background-color:#dcbb87;
+  height: 1px;
+}
 
 
 /*--------------------------------------------------------------

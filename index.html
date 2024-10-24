@@ -148,22 +148,22 @@
                                 <a class="site-logo site-title" href="index.html"><img
                                         src="assets\images\gallery\hemroc-logo-2.png" alt="site-logo"></a>
                                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
+                                     aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" onclick="toggleMenu()"  >
                                     <span class="fas fa-bars"></span>
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav main-menu ml-auto">
-                                        <li class="menu_has_children navlan1"><a href="#homesec">Home</a>
+                                        <li class="menu_has_children navlan1"><a href="#homesec" class="lannav1">Home</a>
                                        
                                         </li>
-                                        <li class="navlan2"><a href="#aboutsec">About Us</a></li>
-                                        <li class="menu_has_children navlan3"><a href="#productsec">Products</a>
+                                        <li class="navlan2"><a href="#aboutsec" class="lannav2">About Us</a></li>
+                                        <li class="menu_has_children navlan3"><a href="#productsec" class="lannav3">Products</a>
                                           
                                         </li>
                                       
-                                        <li class="navlan5"><a href="#certificate">Certifications</a></li>
-                                        <li class="navlan6"><a href="#contactsec">Contact Us</a></li>
+                                        <li class="navlan5"><a href="#certificate" class="lannav4">Certifications</a></li>
+                                        <li class="navlan6"><a href="#contactsec" class="lannav5">Contact Us</a></li>
                                     </ul>
                                     <div class="header-right">
                                         <div class="search-bar d-none d-lg-block">
@@ -187,8 +187,8 @@
                                             </div> -->
                                             <div class="header-action ">
                                                 <span class="globeicon"><i class="fa-solid fa-globe "></i></span>
-                                                <select id="language" class="form--control language-selector "
-                                                    onchange="changeLanguage()" style="color:black;">
+                                                <select id="language" class="form--control language-selector  "
+                                                    onchange="changeLanguage1()" style="color:black;">
 
                                                     <option value="en" selected>English</option>
                                                     <option value="fr">French</option>
@@ -216,6 +216,47 @@
                         </div>
                     </div>
                 </div>
+
+
+                <div class="nav-menu-container2">
+                    <button class="nav-menu-close3" onclick="toggleMenu()">&times;</button>
+                    <ul class="navbar-nav3 main-menu3">
+                        <li class="menu_has_children3 navlan1"><a href="#homesec" class="lannav1">Home</a></li>
+                        <hr class="navlanline">
+                        <li class="navlan2"><a href="#aboutsec" class="lannav2">About Us</a></li>
+                        <hr class="navlanline">
+                        <li class="menu_has_children3 navlan3"><a href="#productsec" class="lannav3">Products</a></li>
+                        <hr class="navlanline">
+                        <li class="navlan5"><a href="#certificate" class="lannav4">Certifications</a></li>
+                        <hr class="navlanline">
+                        <li class="navlan6"><a href="#contactsec" class="lannav5">Contact Us</a></li>
+                        <hr class="navlanline">
+                        <div class="header-action ">
+                            <span class="globeicon"><i class="fa-solid fa-globe "></i></span>
+                            <select id="language2" class="form--control language-selector "
+                                onchange="changeLanguage2()" style="color:black;">
+
+                                <option value="en" selected>English</option>
+                                <option value="fr">French</option>
+                                <option value="ar">Arabic</option>
+                                <option value="spanish">Spanish</option>
+                                <option value="turkish">Turkish</option>
+                                <option value="Swedish">Swedish</option>
+                                <option value="Italian">Italian</option>
+                                <option value="jp">Japanes</option>
+                                <option value="mly">Malaysia</option>
+                                <option value="potagal">Portugal</option>
+
+                                <option value="korea">Korea</option>
+                                <option value="german">German</option>
+
+                            </select>
+                        </div>
+
+                    </ul>
+                </div>
+
+
             </div>
         </header>
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1363,7 +1404,7 @@
                                     <strong>Phone:</strong>
                                     <li> (+937) 862-917 / (+92) 300-5292928 / 313-7560016</li>
                                     <strong>Email:</strong>
-                                    <li>hemrocpk@gmail.com / hemrocfoods@gmail.com</li>
+                                    <li>hemrocpk@gmail.com / hemrocfoods@gmail.com / Info@hemroc.co</li>
                                 </ul>
                             </div>
                         </div>
@@ -1377,7 +1418,7 @@
                                     <strong>Phone:</strong>
                                     <li>+ 974 7732-1399  / +974 7777-6302 / + 974 5539-4244</li>
                                     <strong>Email:</strong>
-                                    <li>qatar@hemroc.co / hemroctc@gmail.com </li>
+                                    <li>qatar@hemroc.co / hemroctc@gmail.com / Info@hemroc.co</li>
                                 </ul>
                             </div>
                         </div>
@@ -1390,7 +1431,7 @@
                                     <strong>Phone:</strong>
                                     <li> +905529674196</li>
                                     <strong>Email:</strong>
-                                    <li>turkey@hemroc.co / hemrocfoods@gmail.com</li>
+                                    <li>turkey@hemroc.co / hemrocfoods@gmail.com / Info@hemroc.co</li>
                                 </ul>
                             </div>
                         </div>
@@ -1404,7 +1445,7 @@
                                     <strong>Phone:</strong>
                                     <li>+ 39 0831-572019 </li>
                                     <strong>Email:</strong>
-                                    <li>eu@hemroc.co / hemrocfoods@gmail.com </li>
+                                    <li>eu@hemroc.co / hemrocfoods@gmail.com / Info@hemroc.co</li>
                                 </ul>
                             </div>
                         </div>
