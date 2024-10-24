@@ -3414,12 +3414,14 @@ section {
 @media only screen and (max-width: 1199px) {
   .nav-menu-container {
     overflow-y: auto;
+    display: none;
   }
 } 
 
 .page-wrapper.show .nav-menu-container {
   transform: translateX(0);
-  visibility: visible;
+  visibility: none;
+
 }
 .page-wrapper.show .menu-element-two {
   transform: translateX(0px) scale(1);
