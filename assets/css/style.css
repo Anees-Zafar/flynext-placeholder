@@ -3576,9 +3576,9 @@ section {
   position: fixed;
   top: 15; /* Align to the top */
   left: -100%; /* Initially hidden */
-  width: 250px; /* Width of the mobile menu */
+  width: 200px; /* Width of the mobile menu */
   height: 100%; /* Full height */
-  background-color: #19232d; /* Dark background color */
+  background-color: #1e2e3d; /* Dark background color */
   transition: left 0.3s ease; /* Smooth transition */
   z-index: 9999; /* Above other elements */
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Shadow for depth */
@@ -3591,7 +3591,7 @@ section {
 }
 
 .nav-menu-close3 {
-  font-size: 24px; /* Size for close button */
+  font-size: 30px; /* Size for close button */
   color: white; /* Color for close button */
   position: absolute; /* Position close button */
   top: 20px; /* Distance from top */
