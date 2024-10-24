@@ -1,19 +1,3 @@
-
-
-function toggleMenu() {
-  const menu = document.querySelector(".nav-menu-container2");
-  menu.classList.toggle("open"); // Toggle the 'open' class
-}
-
-
-
-
-
-
-
-
-
-
 (function ($) {
   "user strict";
 
@@ -2023,4 +2007,13 @@ window.onload = function () {
   const selectedLanguage = document.getElementById("language2").value || 'en'; // Default to English if no language is selected
   changeLanguage(selectedLanguage); // Call changeLanguage to set up the initial translation and Typed.js
 };
+
+
+
+// navbar setting 
+
+function toggleMenu() {
+  const menu = document.querySelector(".nav-menu-container2");
+  menu.classList.toggle("open"); // Toggle the 'open' class
+}
 

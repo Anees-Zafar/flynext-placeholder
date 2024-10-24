@@ -3574,7 +3574,7 @@ section {
 
 .nav-menu-container2 {
   position: fixed;
-  top: 15; /* Align to the top */
+  top: 20; /* Align to the top */
   left: -100%; /* Initially hidden */
   width: 200px; /* Width of the mobile menu */
   height: 100%; /* Full height */
