@@ -771,7 +771,7 @@ const translations = {
       clientDescription: "Trusted by Leading Brands Around the Globe",
 
 
-      companyDescription: "Hemroc was founded in 2011 by a group of safety-focused professionals who delivers unparalleled trading services across different industries.",
+      companyDescription: "Hemroc was founded in 2014 by a group of safety-focused professionals who delivers unparalleled trading services across different industries.",
       airFreight: "Our tailored air solutions meet the demands of fast-moving industries, ensuring your cargo reaches its destination swiftly.",
       cargoShips: "Our expansive fleet navigates key global trade routes, ensuring your bulk shipments arrive safely and on time.",
       landTransport: "Our extensive network of trucks and distribution channels guarantees fast, dependable transport for your overland needs."
@@ -867,7 +867,7 @@ const translations = {
       clientDescription: "De Grandes Marques Nous Font Confiance",
 
 
-      companyDescription: "Hemroc a été fondée en 2011 par un groupe de professionnels axés sur la sécurité qui offre des services de trading inégalés dans différentes industries.",
+      companyDescription: "Hemroc a été fondée en 2014 par un groupe de professionnels axés sur la sécurité qui offre des services de trading inégalés dans différentes industries.",
       airFreight: "Nos solutions aériennes sur mesure répondent aux besoins des industries à rythme rapide, garantissant que votre cargaison atteint sa destination rapidement.",
       cargoShips: "Notre vaste flotte navigue sur les principales routes commerciales mondiales, garantissant l'arrivée en toute sécurité de vos expéditions en vrac.",
       landTransport: "Notre vaste réseau de camions et de canaux de distribution garantit un transport rapide et fiable pour vos besoins terrestres."
@@ -965,7 +965,7 @@ const translations = {
 
 
 
-      companyDescription: "تأسست Hemroc في عام 2011 من قبل مجموعة من المحترفين الذين يركزون على السلامة ويقدمون خدمات تداول لا مثيل لها عبر صناعات مختلفة.",
+      companyDescription: "تأسست Hemroc في عام2014 من قبل مجموعة من المحترفين الذين يركزون على السلامة ويقدمون خدمات تداول لا مثيل لها عبر صناعات مختلفة.",
       airFreight: "تلبي حلولنا الجوية المخصصة احتياجات الصناعات سريعة الحركة، مما يضمن وصول شحنتك إلى وجهتها بسرعة.",
       cargoShips: "تتنقل أسطولنا الواسع في الطرق التجارية العالمية الرئيسية، مما يضمن وصول شحناتك بكميات كبيرة بأمان وفي الوقت المحدد.",
       landTransport: "شبكتنا الواسعة من الشاحنات وقنوات التوزيع تضمن النقل السريع والموثوق لاحتياجاتك البرية."
@@ -1062,7 +1062,7 @@ const translations = {
 
 
 
-      companyDescription: "Hemroc fue fundada en 2011 por un grupo de profesionales enfocados en la seguridad que brindan servicios de comercio inigualables en diversas industrias.",
+      companyDescription: "Hemroc fue fundada en 2014 por un grupo de profesionales enfocados en la seguridad que brindan servicios de comercio inigualables en diversas industrias.",
       airFreight: "Nuestras soluciones aéreas personalizadas satisfacen las demandas de industrias de rápido movimiento, asegurando que su carga llegue a su destino rápidamente.",
       cargoShips: "Nuestra extensa flota navega por las principales rutas comerciales globales, asegurando que sus envíos a granel lleguen de manera segura y a tiempo.",
       landTransport: "Nuestra extensa red de camiones y canales de distribución garantiza un transporte rápido y confiable para sus necesidades terrestres."
@@ -1156,7 +1156,7 @@ const translations = {
       clientDescription: "Dünyanın Önde Gelen Markaları Tarafından Güveniliyor",
 
 
-      companyDescription: "Hemroc, 2011 yılında farklı endüstrilerde rakipsiz ticaret hizmetleri sunan, güvenlik odaklı profesyoneller tarafından kuruldu.",
+      companyDescription: "Hemroc, 2014 yılında farklı endüstrilerde rakipsiz ticaret hizmetleri sunan, güvenlik odaklı profesyoneller tarafından kuruldu.",
       airFreight: "Özel hava çözümlerimiz, hızlı hareket eden endüstrilerin taleplerini karşılar, kargonuzun hızlıca hedefine ulaşmasını sağlar.",
       cargoShips: "Geniş filomuz, küresel ticaret yollarında hareket ederek toplu sevkiyatlarınızın güvenli ve zamanında varmasını sağlar.",
       landTransport: "Kapsamlı kamyon ağımız ve dağıtım kanallarımız, kara taşımacılığı ihtiyaçlarınız için hızlı ve güvenilir taşıma hizmeti sunar."
@@ -1248,7 +1248,7 @@ const translations = {
       clientDescription: "Betrodd av ledande varumärken runt om i världen",
 
 
-      companyDescription: "Hemroc grundades 2011 av en grupp säkerhetsinriktade yrkesmän som levererar oöverträffade handelstjänster över olika branscher.",
+      companyDescription: "Hemroc grundades 2014 av en grupp säkerhetsinriktade yrkesmän som levererar oöverträffade handelstjänster över olika branscher.",
       airFreight: "Våra skräddarsydda luftlösningar möter behoven från snabbflytande industrier och ser till att ditt gods når sin destination snabbt.",
       cargoShips: "Vår omfattande flotta navigerar på viktiga globala handelsvägar och säkerställer att dina bulkleveranser anländer säkert och i tid.",
       landTransport: "Vårt omfattande nätverk av lastbilar och distributionskanaler garanterar snabb och pålitlig transport för dina landbehov."
@@ -1344,7 +1344,7 @@ const translations = {
       clientDescription: "Fiducia dei marchi leader in tutto il mondo",
 
 
-      companyDescription: "Hemroc è stata fondata nel 2011 da un gruppo di professionisti orientati alla sicurezza che offrono servizi di trading senza pari in vari settori.",
+      companyDescription: "Hemroc è stata fondata nel 2014 da un gruppo di professionisti orientati alla sicurezza che offrono servizi di trading senza pari in vari settori.",
       airFreight: "Le nostre soluzioni aeree su misura soddisfano le esigenze di industrie in rapido movimento, assicurando che il tuo carico arrivi a destinazione rapidamente.",
       cargoShips: "La nostra flotta espansiva naviga sulle principali rotte commerciali globali, garantendo che le tue spedizioni di massa arrivino in sicurezza e puntuali.",
       landTransport: "La nostra vasta rete di camion e canali di distribuzione garantisce trasporti veloci e affidabili per le tue esigenze di trasporto via terra."
@@ -1438,7 +1438,7 @@ const translations = {
 
 
 
-      companyDescription: "Hemrocは2011年に、安全を重視する専門家のグループによって設立され、さまざまな業界で比類のない取引サービスを提供しています。",
+      companyDescription: "Hemrocは2014年に、安全を重視する専門家のグループによって設立され、さまざまな業界で比類のない取引サービスを提供しています。",
       airFreight: "当社のカスタマイズされた航空ソリューションは、急速に動く産業の要求を満たし、貨物が迅速に目的地に到着することを保証します。",
       cargoShips: "当社の広範な艦隊は主要な国際貿易ルートを航行し、大量貨物が安全に時間通りに到着することを保証します。",
       landTransport: "当社の広範なトラックネットワークと流通チャネルは、陸上輸送のニーズに対して迅速で信頼できる輸送を保証します。"
@@ -1532,7 +1532,7 @@ const translations = {
       clientDescription: "Dipercayai oleh Jenama Terkemuka Di Seluruh Dunia",
 
 
-      companyDescription: "Hemroc diasaskan pada 2011 oleh sekumpulan profesional yang fokus pada keselamatan yang menawarkan perkhidmatan perdagangan yang tiada tandingannya dalam pelbagai industri.",
+      companyDescription: "Hemroc diasaskan pada 2014 oleh sekumpulan profesional yang fokus pada keselamatan yang menawarkan perkhidmatan perdagangan yang tiada tandingannya dalam pelbagai industri.",
       airFreight: "Penyelesaian udara kami yang disesuaikan memenuhi tuntutan industri yang bergerak pantas, memastikan kargo anda sampai ke destinasinya dengan cepat.",
       cargoShips: "Armada kami yang luas menavigasi laluan perdagangan global utama, memastikan penghantaran pukal anda tiba dengan selamat dan tepat pada masanya.",
       landTransport: "Rangkaian trak kami yang luas dan saluran pengedaran memastikan pengangkutan yang cepat dan boleh dipercayai untuk keperluan darat anda."
@@ -1626,7 +1626,7 @@ const translations = {
 
 
 
-      companyDescription: "Hemroc wurde 2011 von einer Gruppe sicherheitsorientierter Fachleute gegründet, die unvergleichliche Handelsdienstleistungen in verschiedenen Branchen anbieten.",
+      companyDescription: "Hemroc wurde 2014 von einer Gruppe sicherheitsorientierter Fachleute gegründet, die unvergleichliche Handelsdienstleistungen in verschiedenen Branchen anbieten.",
       airFreight: "Unsere maßgeschneiderten Luftlösungen erfüllen die Anforderungen schnelllebiger Industrien und sorgen dafür, dass Ihre Fracht schnell ans Ziel gelangt.",
       cargoShips: "Unsere umfangreiche Flotte befahren wichtige globale Handelsrouten, um sicherzustellen, dass Ihre Massengutsendungen sicher und pünktlich ankommen.",
       landTransport: "Unser weitreichendes Netzwerk von LKWs und Vertriebskanälen garantiert einen schnellen und zuverlässigen Transport für Ihre Landfrachtbedürfnisse."
@@ -1721,7 +1721,7 @@ const translations = {
       clientDescription: "Confiado por Marcas Líderes em Todo o Mundo",
 
 
-      companyDescription: "A Hemroc foi fundada em 2011 por um grupo de profissionais focados na segurança que oferece serviços de negociação incomparáveis em diferentes indústrias.",
+      companyDescription: "A Hemroc foi fundada em 2014 por um grupo de profissionais focados na segurança que oferece serviços de negociação incomparáveis em diferentes indústrias.",
       airFreight: "Nossas soluções aéreas personalizadas atendem às demandas de indústrias em rápido movimento, garantindo que sua carga chegue rapidamente ao destino.",
       cargoShips: "Nossa ampla frota navega nas principais rotas comerciais globais, garantindo que suas remessas em massa cheguem com segurança e a tempo.",
       landTransport: "Nossa ampla rede de caminhões e canais de distribuição garante transporte rápido e confiável para suas necessidades terrestres."
@@ -1818,7 +1818,7 @@ const translations = {
 
 
 
-      companyDescription: "Hemroc는 2011년에 안전에 중점을 둔 전문가 그룹에 의해 설립되어 다양한 산업 분야에서 독보적인 거래 서비스를 제공합니다.",
+      companyDescription: "Hemroc는 2014년에 안전에 중점을 둔 전문가 그룹에 의해 설립되어 다양한 산업 분야에서 독보적인 거래 서비스를 제공합니다.",
       airFreight: "당사의 맞춤형 항공 솔루션은 빠르게 움직이는 산업의 요구를 충족시키며 화물이 빠르게 목적지에 도착하도록 보장합니다.",
       cargoShips: "당사의 광범위한 선단은 주요 글로벌 무역 경로를 항해하여 대량 화물이 안전하고 제시간에 도착하도록 보장합니다.",
       landTransport: "당사의 광범위한 트럭 및 유통망은 육상 운송 요구 사항에 대해 빠르고 신뢰할 수 있는 운송을 보장합니다."
