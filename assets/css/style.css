@@ -6602,14 +6602,7 @@ color: #dcbb87 !important;
 .statistics-section {
   background-attachment: fixed;
 }
-@media only screen and (max-width: 500px){
-  
-  .statistics-section{
-    background-attachment:scroll;
-    height: 50vh;
-    width: 100vw;
-  }
-}
+
 
 
 .statistics-item {
@@ -7847,7 +7840,7 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 @media only screen and (max-width: 500px){
   .intro-video{
     width: 100%;
-  max-width: 85vw;
+  max-width: 95vw;
   }
 }
 
