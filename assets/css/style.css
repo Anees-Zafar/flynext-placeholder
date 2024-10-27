@@ -7841,8 +7841,14 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 .intro-video {
   width: 100%;
   max-width: 500px;
-  z-index: 2;
+  
   border-radius: 15px;
+}
+@media only screen and (max-width: 500px){
+  .intro-video{
+    width: 100%;
+  max-width: 300px;
+  }
 }
 
 /*-------------------------------------------------
