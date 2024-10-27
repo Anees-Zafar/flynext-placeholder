@@ -860,7 +860,7 @@ const translations = {
 
 
       certificationTitle: "Certifications Hemroc",
-      certificationDescription: "Ces entreprises certifient qu'Hemroc respecte les normes les plus élevées",
+      certificationDescription: "À travers des certifications reconnues mondialement, nous vous apportons la confiance en la qualité, la fiabilité et le respect des normes internationales.",
 
 
       clientTitle: "Nos Clients Précieux",
@@ -957,7 +957,7 @@ const translations = {
       // certificate section 
 
       certificationTitle: "شهادات Hemroc",
-      certificationDescription: "تشهد هذه الشركات بأن Hemroc يفي بأعلى المعايير",
+      certificationDescription: "من خلال الشهادات المعترف بها عالميًا، نقدم لك الثقة في الجودة والموثوقية والالتزام بالمعايير الدولية.",
 
 
       clientTitle: "عملاؤنا المميزون",
@@ -1053,7 +1053,7 @@ const translations = {
 
 
       certificationTitle: "Certificaciones de Hemroc",
-      certificationDescription: "Estas empresas certifican que Hemroc cumple con los más altos estándares",
+      certificationDescription: "A través de certificaciones reconocidas globalmente, le brindamos la confianza de calidad, fiabilidad y cumplimiento de normas internacionales.",
 
 
 
@@ -1149,7 +1149,7 @@ const translations = {
       // certificate section 
 
       certificationTitle: "Hemroc Sertifikaları",
-      certificationDescription: "Bu şirketler, Hemroc'un en yüksek standartları karşıladığını onaylar",
+      certificationDescription: "Dünya çapında tanınan sertifikalarla, size kalite, güvenilirlik ve uluslararası standartlara uygunluk güvencesi sunuyoruz.",
 
 
       clientTitle: "Değerli Müşterilerimiz",
@@ -1241,7 +1241,7 @@ const translations = {
       // certificate 
 
       certificationTitle: "Hemroc Certifieringar",
-      certificationDescription: "Dessa företag intygar att Hemroc uppfyller de högsta standarderna",
+      certificationDescription: "Genom globalt erkända certifieringar ger vi dig tryggheten av kvalitet, tillförlitlighet och efterlevnad av internationella standarder.",
 
 
       clientTitle: "Våra Värderade Kunder",
@@ -1338,7 +1338,7 @@ const translations = {
       // certificate 
 
       certificationTitle: "Certificazioni Hemroc",
-      certificationDescription: "Queste aziende certificano che Hemroc soddisfa i più alti standard",
+      certificationDescription: "Attraverso certificazioni riconosciute a livello globale, ti offriamo la sicurezza di qualità, affidabilità e conformità agli standard internazionali.",
 
       clientTitle: "I Nostri Clienti Valorizzati",
       clientDescription: "Fiducia dei marchi leader in tutto il mondo",
@@ -1430,7 +1430,7 @@ const translations = {
       // certificate section 
 
       certificationTitle: "ヘムロックの認証",
-      certificationDescription: "これらの企業は、Hemrocが最高の基準を満たしていることを証明します",
+      certificationDescription: "世界的に認められた認証を通じて、品質、信頼性、国際基準の遵守に対する自信をお届けします。",
 
 
       clientTitle: "大切なお客様",
@@ -1525,7 +1525,7 @@ const translations = {
       // certificate 
 
       certificationTitle: "Sijil Hemroc",
-      certificationDescription: "Syarikat-syarikat ini mengesahkan bahawa Hemroc memenuhi piawaian tertinggi",
+      certificationDescription: "Melalui pensijilan yang diiktiraf secara global, kami membawa keyakinan kualiti, kebolehpercayaan, dan pematuhan kepada piawaian antarabangsa.",
 
 
       clientTitle: "Pelanggan Bernilai Kami",
@@ -1618,7 +1618,7 @@ const translations = {
       // certificate section 
 
       certificationTitle: "Hemroc Zertifizierungen",
-      certificationDescription: "Diese Unternehmen bestätigen, dass Hemroc die höchsten Standards erfüllt",
+      certificationDescription: "Durch weltweit anerkannte Zertifizierungen bieten wir Ihnen Vertrauen in Qualität, Zuverlässigkeit und Einhaltung internationaler Standards.",
 
 
       clientTitle: "Unsere Geschätzten Kunden",
@@ -1715,7 +1715,7 @@ const translations = {
       // certificate section 
 
       certificationTitle: "Certificações Hemroc",
-      certificationDescription: "Estas empresas certificam que a Hemroc atende aos mais altos padrões",
+      certificationDescription: "Através de certificações reconhecidas globalmente, trazemos a confiança na qualidade, confiabilidade e conformidade com os padrões internacionais.",
 
       clientTitle: "Nossos Clientes Valiosos",
       clientDescription: "Confiado por Marcas Líderes em Todo o Mundo",
@@ -1810,7 +1810,7 @@ const translations = {
       // certificate 
 
       certificationTitle: "Hemroc 인증",
-      certificationDescription: "이 회사들은 Hemroc가 최고 기준을 충족함을 인증합니다",
+      certificationDescription: "전 세계적으로 인정받는 인증을 통해 품질, 신뢰성, 그리고 국제 표준 준수에 대한 신뢰를 제공합니다.",
 
 
       clientTitle: "소중한 고객",
