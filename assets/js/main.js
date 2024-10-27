@@ -763,7 +763,7 @@ const translations = {
       // certificate section 
 
       certificationTitle: "Hemroc Certifications",
-      certificationDescription: "These companies certify that Hemroc meets the highest standards",
+      certificationDescription: "Through globally recognized certifications, we bring you the confidence of quality, reliability, and adherence to international standards.",
 
 
       // client section 
